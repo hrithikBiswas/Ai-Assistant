@@ -50,7 +50,7 @@ const PromptForm = () => {
                     onKeyDown={handleKeyDown}
                     placeholder="Type your message..."
                     rows={1}
-                    className="w-full px-4 py-3 pr-12 bg-zinc-100 dark:bg-zinc-800 border-0 rounded-2xl text-zinc-800 dark:text-zinc-100 placeholder-zinc-400 dark:placeholder-zinc-500 resize-none focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
+                    className="w-full px-4 py-3 pr-12 bg-slate-100 dark:bg-slate-800 border-0 rounded-2xl text-zinc-800 dark:text-zinc-100 placeholder-zinc-400 dark:placeholder-zinc-500 resize-none focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
                     disabled={isLoading}
                     style={{
                         maxHeight: '120px',

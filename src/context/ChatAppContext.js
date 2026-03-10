@@ -1,5 +1,5 @@
 'use client';
-const { createContext, useState, useEffect } = require('react');
+const { createContext, useState } = require('react');
 
 export const chatAppContext = createContext(null);
 

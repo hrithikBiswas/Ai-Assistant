@@ -1,18 +1,12 @@
 function MessageBubble({ message, isLoading }) {
     const isUser = message.role === 'user';
 
-    // const x = Object.keys(message).some((key) => message[key].role === 'user');
-    // const con = Object.keys(message).map((key) => message[key]);
-
-    // console.log(message);
-    // console.log('con:', con);
-
     return (
         <div
             className={`flex w-full ${isUser ? 'justify-end' : 'justify-start'} mb-4 animate-fade-in`}
         >
             <div
-                className={`flex gap-3 max-w-[85%] ${isUser ? 'flex-row-reverse' : 'flex-row'}`}
+                className={`flex items-center gap-3 max-w-[85%] ${isUser ? 'flex-row-reverse' : 'flex-row'}`}
             >
                 <div
                     className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${
